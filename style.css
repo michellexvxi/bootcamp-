@@ -1,0 +1,111 @@
+body {
+    background-color: #CD5C5C;
+    color: #212121;
+    font-family: Arial;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    display: inline;
+    color: white;
+    font-size: 40px;
+    font-family: Helvetica;
+}
+
+img{
+    width:100%;
+}
+
+.header {
+    background-color: #B2BABB;
+    border-bottom: solid 3px #FF4081;
+    min-height: 150px;
+    padding-top: 2px;
+    padding-left: 2px;
+    
+}
+#logo{
+    height: 45px ;
+    width: 45px ;
+}
+.navigation {
+    position: fixed;
+    left: -40;
+    z-index: 100;
+    background-color: #eee;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navigation ul a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.navigation ul a li {
+    padding-top: 5px;
+    padding-left: 5px;
+    border-bottom: solid 1px black;
+}
+
+.navigation ul a li:hover {
+    background-color: #FF4081;
+    color: white;
+}
+
+.content {
+    padding: 2%;
+}
+
+.container {
+    background-color: #DAF7A6;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 20%;
+    left:10%; 
+
+}
+
+.picture-holder {
+    background-color: #F08080;
+    margin-bottom: 2%;
+    width: 30%;
+    float: left;
+    display: inline-block;
+    border-radius: 4px;
+    margin-left: 1.66%;
+    margin-right: 1.66%;
+}
+
+.clear {
+    clear: both;
+}
+
+.picture-holder p {
+    color: white;
+    display: inline;
+    font-size: 16px;
+}
+
+.picture-holder a {
+    color: #FF4081;
+    text-decoration: none;
+}
+
+.animal-caption {
+    padding: 5%;
+}
+
+.animal-image img {
+    border-radius: 4px 4px 0 0;
+}
+
+
